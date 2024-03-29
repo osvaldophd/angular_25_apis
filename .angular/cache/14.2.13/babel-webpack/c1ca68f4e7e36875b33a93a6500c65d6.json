@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function noop() {}","map":{"version":3,"sources":["/Volumes/arquivo-osvaldo/WWW/treinamento/angular_25_apis/node_modules/rxjs/dist/esm/internal/util/noop.js"],"names":["noop"],"mappings":"AAAA,OAAO,SAASA,IAAT,GAAgB,CAAG","sourcesContent":["export function noop() { }\n"]},"metadata":{},"sourceType":"module"}

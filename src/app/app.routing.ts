@@ -5,7 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
-const routes: Routes =[
+let routes: Routes;
+routes = [
   {
     path: '',
     redirectTo: 'dashboard',
@@ -17,6 +18,10 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
     }]
+  },
+  {
+    path:'country',
+    loadChildren:()=> import('./contry/contry.module').then(m=> m.ContryModule)
   }
 ];
 
